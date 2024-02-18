@@ -9,7 +9,6 @@ const app = express();
 
 const PORT = ENV.PORT || DEFAULT.PORT;
 
-
 // Body parser
 app.use(bodyParser.json());
 
